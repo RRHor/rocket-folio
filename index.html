@@ -19,9 +19,17 @@
         <nav>
           <ul aria-label="main" class="sm:flex gap-4 text-xl">
             <li><a class="hover:text-yellow-500" href="#">Home</a></li>
-            <li><a class="hover:text-yellow-500" href="#rockets">Our Apps</a></li>
-            <li><a class="hover:text-yellow-500" href="#testimonials">Testimonials</a></li>
-            <li><a class="hover:text-yellow-500" href="#contact">Contact Us</a></li>
+            <li>
+              <a class="hover:text-yellow-500" href="#rockets">Our Apps</a>
+            </li>
+            <li>
+              <a class="hover:text-yellow-500" href="#testimonials"
+                >Testimonials</a
+              >
+            </li>
+            <li>
+              <a class="hover:text-yellow-500" href="#contact">Contact Us</a>
+            </li>
           </ul>
         </nav>
       </div>
@@ -30,54 +38,76 @@
       <!-- ***************** -->
       <!-- Hero Section -->
       <!-- ***************** -->
-      <section id="hero" class="flex flex-col-reverse sm:flex-row gap-8 p-6 justify-center items-center mb-12">
+      <section
+        id="hero"
+        class="flex flex-col-reverse sm:flex-row gap-8 p-6 justify-center items-center mb-12"
+      >
         <article class="sm:w-1/2">
-          <h2 class="text-4xl font-bold text-center max-w-md sm:text-5xl sm:text-left text-slate-900 mb-10">
+          <h2
+            class="text-4xl font-bold text-center max-w-md sm:text-5xl sm:text-left text-slate-900 mb-10"
+          >
             We build
             <span class="text-violet-700">Amazing AI-Powered </span>
             apps...
           </h2>
-          <p class="max-w-md text-2xl text-center text-slate-500 mb-8 sm:text-left">
+          <p
+            class="max-w-md text-2xl text-center text-slate-500 mb-8 sm:text-left"
+          >
             At Rocket.IO we build next generation apps today. From AI to
             Blockchain, we've got you covered...
           </p>
           <div class="flex justify-center sm:justify-start">
-            <a class="bg-indigo-700 p-3 text-white w-48 text-2xl text-center rounded-lg border-solid border-slate-900 hover:bg-violet-300 hover:scale-110 transition ease-in-out duration-300" href="#contact"> Contact Us </a>
+            <a
+              class="bg-indigo-700 p-3 text-white w-48 text-2xl text-center rounded-lg border border-solid border-slate-900 hover:bg-violet-300 hover:scale-110 transition ease-in-out duration-300"
+              href="#contact"
+            >
+              Contact Us
+            </a>
           </div>
         </article>
-        <img src="./assets/rocketdab.png" alt="rocket dap image" class="w-1/2 animate-bounce" />
+        <img
+          src="./assets/rocketdab.png"
+          alt="rocket dap image"
+          class="w-1/2 animate-bounce"
+        />
       </section>
 
-      <hr />
+      <hr class="w-1/2 bg-black" />
 
       <!-- ***************** -->
       <!-- Features -->
       <!-- ***************** -->
 
-      <section id="rockets">
-        <h2>Our Apps</h2>
-        <div>
-          <article>
-            <img src="./assets/rocketride.png" alt="rocket ride image" />
+      <section id="rockets" class="p-6 my-12">
+        <h2
+          class="text-4xl font-bold text-center mb-6 text-slate-900 sm:text-5xl"
+        >
+          Our Apps
+        </h2>
+        <div class="my-12 mx-auto flex flex-col sm:flex-row items-center gap-8">
+          <article
+            class="w-2/3 flex flex-col items-center border border-solid border-slate-900 py-6 px-2 rounded-3xl shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] hover:shadow-indigo-400 cursor-pointer transition-all durationn-300sm:w-5/6"
+          >
+            <img src="./assets/rocketride.png" alt="rocket ride image" class="w-1/2 mb-6"/>
 
-            <h3>Innovative</h3>
+            <h3 class="text-3xl text-center text-slate-900 mb-2" >Innovative</h3>
 
-            <p>Next Gen</p>
+            <p class="text-2xl text-center text-slate-500">Next Gen</p>
           </article>
-          <article>
-            <img src="./assets/rocketman.png" alt="rocket man image" />
+          <article class="w-2/3 flex flex-col items-center border border-solid border-slate-900 py-6 px-2 rounded-3xl shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] hover:shadow-indigo-400 cursor-pointer transition-all durationn-300sm:w-5/6">
+            <img src="./assets/rocketman.png" alt="rocket man image" class="w-1/2 mb-6"/>
 
-            <h3>AI Powered</h3>
+            <h3 class="text-3xl text-center text-slate-900 mb-2">AI Powered</h3>
 
             <p>Best Seller!</p>
           </article>
 
-          <article>
-            <img src="./assets/rocketlaunch.png" alt="rocket launch image" />
+          <article class="w-2/3 flex flex-col items-center border border-solid border-slate-900 py-6 px-2 rounded-3xl shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] hover:shadow-indigo-400 cursor-pointer transition-all durationn-300sm:w-5/6">
+            <img src="./assets/rocketlaunch.png" alt="rocket launch image" class="w-1/2 mb-6"/>
 
-            <h3>High Performance</h3>
+            <h3 class="text-3xl text-center text-slate-900 mb-2">High Performance</h3>
 
-            <p>Top Rated!</p>
+            <p class="text-2xl text-center text-slate-500">Top Rated!</p>
           </article>
         </div>
       </section>
