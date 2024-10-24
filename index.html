@@ -1,210 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" href="./style.css" />
-    <link rel="favicon icon" href="./assets/favicon.ico" type="image/x-icon">
+    <link rel="favicon icon" href="./assets/favicon.ico" type="image/x-icon" />
     <title>Rocket IO</title>
-</head>
+  </head>
 
-<body>
-    <header>
-        <div>
-            <h1>
-                <a href="#">🚀 Rocket.io</a>
-            </h1>
-
-
-            <nav>
-                <ul aria-label="main">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#rockets">Our Apps</a></li>
-                    <li><a href="#testimonials">Testimonials</a></li>
-                    <li><a href="#contact">Contact Us</a></li>
-                </ul>
-            </nav>
-
-
+  <body>
+    <header class="bg-purple-900 text-white sticky top-0">
+      <div class="flex justify-between items-center max-w-6xl mx-auto p-4">
+        <div class="text-3xl font-medium">
+          <a href="#">🚀 Rocket.io</a>
         </div>
+
+        <nav>
+          <ul aria-label="main" class="sm:flex gap-4 text-xl">
+            <li><a class="hover:text-yellow-500" href="#">Home</a></li>
+            <li><a class="hover:text-yellow-500" href="#rockets">Our Apps</a></li>
+            <li><a class="hover:text-yellow-500" href="#testimonials">Testimonials</a></li>
+            <li><a class="hover:text-yellow-500" href="#contact">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main>
-        <!-- ***************** -->
-        <!-- Hero Section -->
-        <!-- ***************** -->
-        <section id="hero">
-            <article>
-                <h2>
-                    We build
-                    <span>Amazing AI-Powered
-                    </span>
-                    apps...
-                </h2>
-                <p>
-                    At Rocket.IO we build next generation apps today. From AI to
-                    Blockchain, we've got you covered...
-                </p>
-                <div>
-                    <a href="#contact">
-                        Contact Us
-                    </a>
-                </div>
-            </article>
-            <img src="./assets/rocketdab.png" alt="rocket dap image" />
-        </section>
+      <!-- ***************** -->
+      <!-- Hero Section -->
+      <!-- ***************** -->
+      <section id="hero">
+        <article>
+          <h2>
+            We build
+            <span>Amazing AI-Powered </span>
+            apps...
+          </h2>
+          <p>
+            At Rocket.IO we build next generation apps today. From AI to
+            Blockchain, we've got you covered...
+          </p>
+          <div>
+            <a href="#contact"> Contact Us </a>
+          </div>
+        </article>
+        <img src="./assets/rocketdab.png" alt="rocket dap image" />
+      </section>
 
-        <hr />
+      <hr />
 
+      <!-- ***************** -->
+      <!-- Features -->
+      <!-- ***************** -->
 
+      <section id="rockets">
+        <h2>Our Apps</h2>
+        <div>
+          <article>
+            <img src="./assets/rocketride.png" alt="rocket ride image" />
 
-        <!-- ***************** -->
-        <!-- Features -->
-        <!-- ***************** -->
+            <h3>Innovative</h3>
 
+            <p>Next Gen</p>
+          </article>
+          <article>
+            <img src="./assets/rocketman.png" alt="rocket man image" />
 
+            <h3>AI Powered</h3>
 
-        <section id="rockets">
-            <h2>
-                Our Apps
-            </h2>
-            <div>
-                <article>
-                    <img src="./assets/rocketride.png" alt="rocket ride image" />
+            <p>Best Seller!</p>
+          </article>
 
-                    <h3>
-                        Innovative
-                    </h3>
+          <article>
+            <img src="./assets/rocketlaunch.png" alt="rocket launch image" />
 
-                    <p>
-                        Next Gen
-                    </p>
-                </article>
-                <article>
-                    <img src="./assets/rocketman.png" alt="rocket man image" />
+            <h3>High Performance</h3>
 
-                    <h3>
-                        AI Powered
-                    </h3>
+            <p>Top Rated!</p>
+          </article>
+        </div>
+      </section>
 
-                    <p>
-                        Best Seller!
-                    </p>
-                </article>
+      <hr />
 
-                <article>
-                    <img src="./assets/rocketlaunch.png" alt="rocket launch image" />
+      <!-- ***************** -->
+      <!-- Testimonials -->
+      <!-- ***************** -->
 
-                    <h3>
-                        High Performance
-                    </h3>
+      <section id="testimonials">
+        <h2>Testimonials</h2>
+        <figure>
+          <blockquote>
+            <p>
+              Using Rocket.IO has been a game changer for our business. We've
+              seen a <span class="italic">300% increase </span> in sales since
+              we started using it!
+            </p>
+          </blockquote>
+          <figcaption>&#8212; CEO, ALL2Code GmbH</figcaption>
+        </figure>
+        <figure>
+          <blockquote>
+            <p>
+              Business has never been better since we started using Rocket.IO.
+              Our customers love it and we love it too! It's a win-win!
+            </p>
+          </blockquote>
+          <figcaption>&#8212; Regional Manager, CurryCoders GmbH</figcaption>
+        </figure>
+        <figure>
+          <blockquote>
+            <p>
+              Rocket.IO is the best! I can't believe I didn't start using it
+              sooner! Life changing! I'm a Rocket.IO customer for life!
+            </p>
+          </blockquote>
+          <figcaption>&#8212; Max Mustermann, Genius</figcaption>
+        </figure>
+      </section>
 
-                    <p>
-                        Top Rated!
-                    </p>
-                </article>
-            </div>
-        </section>
+      <hr />
 
-        <hr />
+      <!-- ***************** -->
+      <!-- Contact Us -->
+      <!-- ***************** -->
 
-
-        <!-- ***************** -->
-        <!-- Testimonials -->
-        <!-- ***************** -->
-
-
-
-        <section id="testimonials">
-            <h2>
-                Testimonials
-            </h2>
-            <figure>
-                <blockquote>
-                    <p>
-                        Using Rocket.IO has been a game changer for our business. We've
-                        seen a <span class="italic">300% increase </span> in sales since
-                        we started using it!
-                    </p>
-                </blockquote>
-                <figcaption>
-                    &#8212; CEO, ALL2Code GmbH
-                </figcaption>
-            </figure>
-            <figure>
-                <blockquote>
-                    <p>
-                        Business has never been better since we started using Rocket.IO.
-                        Our customers love it and we love it too! It's a win-win!
-                    </p>
-                </blockquote>
-                <figcaption>
-                    &#8212; Regional Manager, CurryCoders GmbH
-                </figcaption>
-            </figure>
-            <figure>
-                <blockquote>
-                    <p>
-                        Rocket.IO is the best! I can't believe I didn't start using it
-                        sooner! Life changing! I'm a Rocket.IO customer for life!
-                    </p>
-                </blockquote>
-                <figcaption>
-                    &#8212; Max Mustermann, Genius
-                </figcaption>
-            </figure>
-        </section>
-
-        <hr />
-
-        <!-- ***************** -->
-        <!-- Contact Us -->
-        <!-- ***************** -->
-
-        <section id="contact">
-            <h2>
-                Contact Us
-            </h2>
-            <form name="contact" netlify action="">
-                <label for="subject">Subject:</label>
-                <input type="text" id="subject" name="subject" required minlength="3" maxlength="60"
-                    placeholder="Your Subject" />
-                <label for="message">Message:</label>
-                <textarea type="text" name="message" id="message" cols="30" rows="10"
-                    placeholder="Your Message" required></textarea>
-                <button type="submit">
-                    Submit
-                </button>
-            </form>
-        </section>
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <form name="contact" netlify action="">
+          <label for="subject">Subject:</label>
+          <input
+            type="text"
+            id="subject"
+            name="subject"
+            required
+            minlength="3"
+            maxlength="60"
+            placeholder="Your Subject"
+          />
+          <label for="message">Message:</label>
+          <textarea
+            type="text"
+            name="message"
+            id="message"
+            cols="30"
+            rows="10"
+            placeholder="Your Message"
+            required
+          ></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
     </main>
     <footer id="footer">
+      <div>
+        <address>
+          <h2>Rocket.IO GmbH</h2>
+
+          Hauptstraße 1,<br />
+          12345, Berlin.<br />
+          Germany Email:
+          <a href="mailto:info@rocketio.com">Info@rocketio.com</a><br />
+          Phone: <a href="tel:+49123456789">+49 123 456 789</a>
+        </address>
+        <nav aria-label="footer">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#rockets">Our Apps</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </nav>
         <div>
-            <address>
-                <h2>Rocket.IO GmbH</h2>
-
-                Hauptstraße 1,<br />
-                12345, Berlin.<br />
-                Germany Email:
-                <a href="mailto:info@rocketio.com">Info@rocketio.com</a><br />
-                Phone: <a href="tel:+49123456789">+49 123 456 789</a>
-            </address>
-            <nav aria-label="footer">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#rockets">Our Apps</a></li>
-                    <li><a href="#testimonials">Testimonials</a></li>
-                    <li><a href="#contact">Contact Us</a></li>
-                </ul>
-            </nav>
-            <div>
-                <p>Copyright &copy; <span id="year">2024</span></p>
-                <p>All Rights Reserved</p>
-            </div>
+          <p>Copyright &copy; <span id="year">2024</span></p>
+          <p>All Rights Reserved</p>
         </div>
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>
